@@ -85,13 +85,6 @@ body {
   font-family: "Public Cans", sans-serif;
 }
 
-@media screen and (min-width: 900px) {
-  body .wrapper {
-    max-width: 1200px;
-    margin: 0% auto;
-  }
-}
-
 body .wrapper .section-1 {
   position: relative;
   z-index: -2;
@@ -195,7 +188,8 @@ body .wrapper .section-1 main .hero {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    background-size: 125% 125%;
+    background-image: url("../images/bg-intro-desktop.svg");
+    background-position: bottom right;
   }
 }
 
